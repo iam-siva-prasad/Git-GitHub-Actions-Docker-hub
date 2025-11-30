@@ -38,7 +38,7 @@ jobs:
 
       - name: Test Docker image
         run: |
-          docker run -d -p 8080:80 siva-web:latest
+          docker run -d -p 8080:80 siva-web:New
           sleep 5
           curl http://localhost:8080 | grep "IAM-SIVA-PRASAD"
 
