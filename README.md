@@ -19,7 +19,7 @@ The workflow automatically:
 5. create an secrets in Github project secrets and variables
 6. try to push your code to GitHub its auto matically triger and runn the pipelice and it push the code in to youe desired Docker HUb.
 
-after created the images you need to test it weather its working or not using these commands:
+# after created the image you need to test the image.  weather its working or not, by using these commands:
 
 Thi step for download the Docker Image.
 **$docker pull golisivaprasad/siva-web:latest**
