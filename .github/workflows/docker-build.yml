@@ -67,3 +67,4 @@ jobs:
         run: |
           docker tag siva-web:New golisivaprasad/siva-web:New
           docker push golisivaprasad/siva-web:New
+
