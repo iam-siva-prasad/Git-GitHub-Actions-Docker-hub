@@ -65,5 +65,5 @@ jobs:
 
       - name: Tag and Push Docker image
         run: |
-          docker tag siva-web:latest golisivaprasad/siva-web:New
+          docker tag siva-web:New golisivaprasad/siva-web:New
           docker push golisivaprasad/siva-web:New
