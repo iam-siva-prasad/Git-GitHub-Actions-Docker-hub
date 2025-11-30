@@ -8,7 +8,7 @@ The workflow automatically:
 - Builds the Docker image from the `Dockerfile`.
 - Pushes the image to Docker Hub (`golisivaprasad/siva-web`).
 - Uses GitHub Actions for automation.
-=========================================================================================================================
+========================================================================
 Steps: 
 1. creste an repo in github.
 2. create  an github actions file.
