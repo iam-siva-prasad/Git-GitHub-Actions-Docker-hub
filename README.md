@@ -38,7 +38,6 @@ Now chcek the output!. its shouls be look like this if it run Successfully.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome</title>
 </head>
 <body>
     <h1>Welcome "IAM-SIVA-PRASAD"</h1>
