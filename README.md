@@ -30,11 +30,13 @@ This command to run Docker Image locally , using this Port Number 8080. !!!
 
 Now chcek the output!. its shouls be look like this if it run Successfully. 
 
+The last command to display the Output
+
+**$ curl http://127.0.0.1:8080**
+
 **OUTPUT**
 
 ========================================================================
-
-**$ curl http://127.0.0.1:8080**
 <!DOCTYPE html>
 <html>
 <head>
