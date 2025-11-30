@@ -8,4 +8,32 @@ The workflow automatically:
 - Builds the Docker image from the `Dockerfile`.
 - Pushes the image to Docker Hub (`golisivaprasad/siva-web`).
 - Uses GitHub Actions for automation.
+=========================================================================================================================
+Steps: 
+1. creste an repo in github.
+2. create  an github actions file.
+3. create an dockerfile & Index.html file.
+4. create an Docker hub account.
+5. create an secrets in Github project secrets and variables
+6. try to push your code to GitHub its auto matically triger and runn the pipelice and it push the code in to youe desired Docker HUb.
 
+after created the images yu need to test it weather its working or not using these commands:
+
+thi is for download 
+**$docker pull golisivaprasad/siva-web:latest**
+this is to runn locally , 8080 is your lcal port !!! 
+
+**$docker run -d -p 8080:80 golisivaprasad/siva-web:latest**
+
+chcek the output shouls be seen by you like 
+
+**$ curl http://127.0.0.1:8080**
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome "IAM-SIVA-PRASAD"</h1>
+</body>
+</html>
