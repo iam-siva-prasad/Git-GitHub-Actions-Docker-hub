@@ -15,8 +15,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t siva-web:Updated .
-          docker save siva-web:Updated > image.tar
+          docker build -t siva-web:latest .
+          docker save siva-web:latest > image.tar
 
       - name: Upload image artifact
         uses: actions/upload-artifact@v4
@@ -38,7 +38,7 @@ jobs:
 
       - name: Test Docker image
         run: |
-          docker run -d -p 8080:80 siva-web:Updated
+          docker run -d -p 8080:80 siva-web:latest
           sleep 5
           curl http://localhost:8080 | grep "IAM-SIVA-PRASAD"
 
@@ -65,6 +65,6 @@ jobs:
 
       - name: Tag and Push Docker image
         run: |
-          docker tag siva-web:Updated golisivaprasad/siva-web:Updated
-          docker push golisivaprasad/siva-web:Updated
+          docker tag siva-web:latest golisivaprasad/siva-web:latest
+          docker push golisivaprasad/siva-web:latest
 
