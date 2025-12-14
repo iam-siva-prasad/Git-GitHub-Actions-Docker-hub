@@ -9,7 +9,6 @@ The workflow automatically:
 - Uses GitHub Actions for automation.
 
 ========================================================================
-
 **Steps:**
 1. creste an repo in github.
 2. create  an github actions file.
