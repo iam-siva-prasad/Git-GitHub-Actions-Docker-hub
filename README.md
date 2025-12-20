@@ -3,6 +3,9 @@
 This repository demonstrates a complete CI/CD pipeline using **Git**, **GitHub**, **GitHub Actions**, and **Docker Hub**.  
 It builds a Docker image with **Nginx** serving a static HTML page that displays: **Welcome "IAM-SIVA-PRASAD"**
 
+
+![Git-GitHub-Actions-Docker-hub.png](https://github.com/iam-siva-prasad/Git-GitHub-Actions-Docker-hub/blob/main/Git-GitHub-Actions-Docker-hub.png?raw=true)
+
 The workflow automatically:
 - Builds the Docker image from the `Dockerfile`.
 - Pushes the image to Docker Hub (`golisivaprasad/siva-web`).
